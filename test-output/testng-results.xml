@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-20T11:03:48 IST" name="Suite" finished-at="2024-08-20T11:05:06 IST" duration-ms="77971">
+    <groups>
+      <group name="regression">
+        <method signature="TS001_CareerLattice.TC001_careerlatticepageactions()[pri:1, instance:testcases.TS001_CareerLattice@42e3ede4]" name="TC001_careerlatticepageactions" class="testcases.TS001_CareerLattice"/>
+        <method signature="TS002_Uploadresume.TC002_003_uploadresumepageactions()[pri:2, instance:testcases.TS002_Uploadresume@2a3c96e3]" name="TC002_003_uploadresumepageactions" class="testcases.TS002_Uploadresume"/>
+        <method signature="TS003_Skillprofile.TC004_Skillprofilepageactions()[pri:2, instance:testcases.TS003_Skillprofile@15cafec7]" name="TC004_Skillprofilepageactions" class="testcases.TS003_Skillprofile"/>
+        <method signature="TS003_Skillprofile.TC005_filterskillactions()[pri:3, instance:testcases.TS003_Skillprofile@15cafec7]" name="TC005_filterskillactions" class="testcases.TS003_Skillprofile"/>
+        <method signature="TS004_SkillUp.TC006_Employeeacquireskills()[pri:4, instance:testcases.TS004_SkillUp@5b444398]" name="TC006_Employeeacquireskills" class="testcases.TS004_SkillUp"/>
+        <method signature="TS004_SkillUp.TC007_Developmentplanactions()[pri:5, instance:testcases.TS004_SkillUp@5b444398]" name="TC007_Developmentplanactions" class="testcases.TS004_SkillUp"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TS001_CareerLattice.TC001_careerlatticepageactions()[pri:1, instance:testcases.TS001_CareerLattice@42e3ede4]" name="TC001_careerlatticepageactions" class="testcases.TS001_CareerLattice"/>
+        <method signature="TS002_Uploadresume.TC002_003_uploadresumepageactions()[pri:2, instance:testcases.TS002_Uploadresume@2a3c96e3]" name="TC002_003_uploadresumepageactions" class="testcases.TS002_Uploadresume"/>
+        <method signature="TS003_Skillprofile.TC004_Skillprofilepageactions()[pri:2, instance:testcases.TS003_Skillprofile@15cafec7]" name="TC004_Skillprofilepageactions" class="testcases.TS003_Skillprofile"/>
+        <method signature="TS003_Skillprofile.TC005_filterskillactions()[pri:3, instance:testcases.TS003_Skillprofile@15cafec7]" name="TC005_filterskillactions" class="testcases.TS003_Skillprofile"/>
+        <method signature="TS004_SkillUp.TC006_Employeeacquireskills()[pri:4, instance:testcases.TS004_SkillUp@5b444398]" name="TC006_Employeeacquireskills" class="testcases.TS004_SkillUp"/>
+        <method signature="TS004_SkillUp.TC007_Developmentplanactions()[pri:5, instance:testcases.TS004_SkillUp@5b444398]" name="TC007_Developmentplanactions" class="testcases.TS004_SkillUp"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-08-20T11:03:48 IST" name="Test" finished-at="2024-08-20T11:05:06 IST" duration-ms="77971">
+      <class name="testcases.TS003_Skillprofile">
+        <test-method signature="TC004_Skillprofilepageactions()[pri:2, instance:testcases.TS003_Skillprofile@15cafec7]" started-at="2024-08-20T11:04:41 IST" name="TC004_Skillprofilepageactions" finished-at="2024-08-20T11:04:45 IST" duration-ms="4530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_Skillprofilepageactions -->
+        <test-method signature="TC005_filterskillactions()[pri:3, instance:testcases.TS003_Skillprofile@15cafec7]" started-at="2024-08-20T11:04:45 IST" name="TC005_filterskillactions" finished-at="2024-08-20T11:04:53 IST" duration-ms="7380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_filterskillactions -->
+      </class> <!-- testcases.TS003_Skillprofile -->
+      <class name="testcases.TS004_SkillUp">
+        <test-method signature="TC006_Employeeacquireskills()[pri:4, instance:testcases.TS004_SkillUp@5b444398]" started-at="2024-08-20T11:04:53 IST" name="TC006_Employeeacquireskills" finished-at="2024-08-20T11:04:56 IST" duration-ms="3677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC006_Employeeacquireskills -->
+        <test-method signature="TC007_Developmentplanactions()[pri:5, instance:testcases.TS004_SkillUp@5b444398]" started-at="2024-08-20T11:04:57 IST" name="TC007_Developmentplanactions" finished-at="2024-08-20T11:05:05 IST" duration-ms="8118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC007_Developmentplanactions -->
+      </class> <!-- testcases.TS004_SkillUp -->
+      <class name="testcases.TS001_CareerLattice">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.TS001_CareerLattice@42e3ede4]" started-at="2024-08-20T11:03:48 IST" name="setup" finished-at="2024-08-20T11:03:54 IST" duration-ms="5881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC001_careerlatticepageactions()[pri:1, instance:testcases.TS001_CareerLattice@42e3ede4]" started-at="2024-08-20T11:03:54 IST" name="TC001_careerlatticepageactions" finished-at="2024-08-20T11:04:09 IST" duration-ms="14966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_careerlatticepageactions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TS001_CareerLattice@42e3ede4]" started-at="2024-08-20T11:05:05 IST" name="tearDown" finished-at="2024-08-20T11:05:06 IST" duration-ms="1120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TS001_CareerLattice -->
+      <class name="testcases.TS002_Uploadresume">
+        <test-method signature="TC002_003_uploadresumepageactions()[pri:2, instance:testcases.TS002_Uploadresume@2a3c96e3]" started-at="2024-08-20T11:04:09 IST" name="TC002_003_uploadresumepageactions" finished-at="2024-08-20T11:04:40 IST" duration-ms="31193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_003_uploadresumepageactions -->
+      </class> <!-- testcases.TS002_Uploadresume -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
